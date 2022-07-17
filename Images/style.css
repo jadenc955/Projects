@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* Size the whole container */
+.section {
+    display: inline-block;
+    margin: 10px;
+    height: 1500px;
+    width: 1500px;
+    border: 1px solid black;    
+}
+
+/* Sized the image container to be relative to the whole */
+.container {
+    width: 100%;
+    height: 50%;
+}
+
+/* Sizes the image relative to the container */
+.container img {
+    width: 100%;
+    height: 100%;  
+}
+
