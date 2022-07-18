@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: 1500px;
+    width: 1000px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.container {
+    height: 67%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.breakfast {
+    background-image: url("breakfast.jpg");
+}
+.green {
+    background-image: url("greens.jpg");
+}
+.drink {
+    background-image: url("drinks.jpg");
+}
